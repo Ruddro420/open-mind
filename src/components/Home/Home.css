@@ -1,0 +1,14 @@
+.app-container h1 {
+    line-height: 4rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.max-w-lg {
+    max-width: 52rem !important;
+}
+
+.max-w-xs {
+    max-width: 100% !important;
+    margin-top: 20px;
+}
