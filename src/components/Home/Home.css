@@ -12,17 +12,43 @@
     max-width: 100% !important;
     margin-top: 20px;
 }
+
 .hero {
     display: grid;
     width: 100%;
     place-items: center;
     background-size: cover;
     background-position: center;
-    justify-content: center!important;
-    align-items: start!important;
-    padding-top: 50px!important;
+    justify-content: center !important;
+    align-items: start !important;
+    padding-top: 50px !important;
 }
+
 .w-full {
     width: 100%;
-    display: block!important;
+    display: block !important;
+}
+
+/* Output Result */
+.w-96 {
+    width: 100% !important;
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.output-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+
+}
+
+.output-container img {
+    height: 300px;
+    width: 100%;
 }
