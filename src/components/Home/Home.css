@@ -12,3 +12,17 @@
     max-width: 100% !important;
     margin-top: 20px;
 }
+.hero {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center!important;
+    align-items: start!important;
+    padding-top: 50px!important;
+}
+.w-full {
+    width: 100%;
+    display: block!important;
+}
