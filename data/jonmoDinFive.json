@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Cloth",
+        "title": "আপনাকে লাল জামায় সুন্দর দেখাবে",
+        "des": " লাল জামায় আপনাকে মানাবে , এছাড়াও নীল কিংবা আকশী রঙ এর থ্রি পিছ ট্রাই করতে পারেন।",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbQdFpLK12NdLP_M9fnND4SpDTWZATipmPFZAea5IzAJwwrbkYvKVa3niQTCmuOd6oAw&usqp=CAU",
+        "others": "সাদা জামাতেও আপনাকে ভাল মানাবে।"
+    },
+    {
+        "name": "Shoes",
+        "title": "লো হিলের জুতা আপনার পায়ে মানাবে",
+        "des": "লাল জামার সাথে হালকা যেকোনো কালার জুতো মানাবে আপনাকে",
+        "img": "https://yua.sulv-shoe.com/Content/uploads/2022766516/20221109114401f1637e3ae5374c1fb5df6f79703398f6.jpg",
+        "others": "এছাড়াও ফ্লাট জুতা পরলেও আপনাকে ভাল লাগবে"
+    },
+    {
+        "name": "Ornaments",
+        "title": "সিম্পল এর মধ্যে লাল দুটি কানের দুল এবং নাকের ফুল।",
+        "des": " হাত এ লাল চুরি । আপনাকে যা লাগবেনা চোখ সরানো যাবেনা।",
+        "img": "https://e7.pngegg.com/pngimages/244/620/png-clipart-gold-colored-earrings-earring-jewellery-gold-costume-jewelry-necklace-earring-miscellaneous-gemstone.png",
+        "others": "নাকের ফুল ও মানাবে আপনাকে।"
+    },
+    {
+        "name": "Handbags",
+        "title": "মাঝারি সাইজ এর সাদা হ্যান্ডবেগ ভাল হবে",
+        "des": " কাধে বেগ এবং লম্বা চুল আপনাকে লাগবে কুল। এছারাও কালো কালার এর ব্যাগ ও ভাল লাগবে।",
+        "img": "https://static-01.daraz.com.bd/p/66bb9ae5f10767c2584b9ef46222903e.jpg_750x750.jpg_.webp"
+    }
+]

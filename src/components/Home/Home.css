@@ -52,3 +52,12 @@
     height: 300px;
     width: 100%;
 }
+
+@media(max-width:800px) {
+    .output-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+    }
+}

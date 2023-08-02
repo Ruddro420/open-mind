@@ -7,6 +7,12 @@ import jnmoDinOne from "../../../data/jonmoDinOne.json";
 import jnmoDinTwo from "../../../data/jonmoDinTwo.json";
 import jnmoDinThree from "../../../data/jonmoDinThree.json";
 import jnmoDinFour from "../../../data/jonmoDinFour.json";
+import jnmoDinFive from "../../../data/jonmoDinFive.json";
+import jnmoDinSix from "../../../data/jonmoDinSix.json";
+import jnmoDinSeven from "../../../data/jonmoDinSeven.json";
+import jnmoDinEight from "../../../data/jonmoDinEight.json";
+import jnmoDinNine from "../../../data/jonmoDinNine.json";
+import jnmoDinTen from "../../../data/jonmoDinTen.json";
 
 const Home = () => {
     const [reason, setReason] = useState([]);
@@ -18,7 +24,7 @@ const Home = () => {
 
     const getRandomJSON = () => {
         // Create an array containing the imported JSON data
-        const jsonDataArray = [jnmoDinOne, jnmoDinTwo, jnmoDinThree, jnmoDinFour];
+        const jsonDataArray = [jnmoDinOne, jnmoDinTwo, jnmoDinThree, jnmoDinFour, jnmoDinFive, jnmoDinSix, jnmoDinSeven, jnmoDinEight, jnmoDinNine, jnmoDinTen];
 
         // Generate a random index to select one of the JSON files
         const randomIndex = Math.floor(Math.random() * jsonDataArray.length);
