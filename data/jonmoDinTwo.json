@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Cloth",
+        "title": "আপনাকে হালকা কালার থ্রি পিচে ভালো লাগবে",
+        "des": "আপনি একজন ভালো মনের মানুষ , আপনি যেটা পড়বেন ওইটাই বেস্ট হবে , তবে হালকা কালার আপনাকে অনেক সুন্দর লাগবে  ",
+        "img": "https://shodagor-uploads.s3.ap-south-1.amazonaws.com/uploads/all/dVIBA.jpg"
+    },
+    {
+        "name": "Ornaments",
+        "title": "সিম্পল এর মধ্যে হালকা কানের দুল এবং নাকের ফুল।",
+        "des": "গলায় কালো কালার এর মালা ভাল লাগবে আপনাকে। সাথে হাত এ চুরি ",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhY9dy4qcbWt7X5OUm6qZEKeliDO1W_zT4Ag&usqp=CAU"
+    },
+    {
+        "name": "Hair Style",
+        "title": "খোলা চুলে আপনাকে সুন্দর দেখাবে",
+        "des": "আপনি যদি চুলে সামান্য বেধে তাতে কোনো রাবার বা ব্যান্ড দিয়ে বাঁধেন তাতেও আপনাকে ভালো লাগবে",
+        "img": "https://i.pinimg.com/736x/44/a8/8c/44a88cad60ce58acdd7ac72c9f221e77.jpg"
+    },
+    {
+        "name": "Handbags",
+        "title": "ছোট কাধে নেয়া ব্যাগ গুলো আপনার জন্য পারফেক্ট",
+        "des": "ঘাড়ে নেয়া ব্যাগের থেকে আপনাকে হাতে নেয়া শর্ট ব্যাগ ভালো লাগবে, কালো কিংবা হাল্কা নীল কালার আমার জন্য পারফেক্ট ম্যাচ হবে",
+        "img": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/09/11/womens-handbag-bacteria.jpg?width=1200&height=1200&fit=crop"
+    }
+]

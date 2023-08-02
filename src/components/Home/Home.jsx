@@ -3,13 +3,29 @@ import reasonData from "../../../data/reason.json";
 import mainData from "../../../data/mainData.json";
 import { useState } from "react";
 import { useEffect } from "react";
-import outputOne from "../../../data/outputDataOne.json";
+import jnmoDinOne from "../../../data/jonmoDinOne.json";
+import jnmoDinTwo from "../../../data/jonmoDinTwo.json";
+import jnmoDinThree from "../../../data/jonmoDinThree.json";
+import jnmoDinFour from "../../../data/jonmoDinFour.json";
 
 const Home = () => {
     const [reason, setReason] = useState([]);
     const [inputData, setInputData] = useState();
     const [isDisabled, setIsDisabled] = useState(false);
     const getMainData = [];
+
+    // random data show
+
+    const getRandomJSON = () => {
+        // Create an array containing the imported JSON data
+        const jsonDataArray = [jnmoDinOne, jnmoDinTwo, jnmoDinThree, jnmoDinFour];
+
+        // Generate a random index to select one of the JSON files
+        const randomIndex = Math.floor(Math.random() * jsonDataArray.length);
+        console.log(randomIndex);
+        // Return the randomly selected JSON data
+        return jsonDataArray[randomIndex];
+    };
     // collect data
     const [collectData, setCollectData] = useState([]);
 
@@ -18,28 +34,22 @@ const Home = () => {
         findData.map((item) => setReason(item.data));
     }, [inputData]);
 
+
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (getMainData.length < 4) {
+        if (getMainData.length < 3) {
             alert("All Field Should Be Required");
         } else {
-            console.log(getMainData);
             setIsDisabled(true);
-
-            if (getMainData[0] === "রাগী প্রকৃতির মানুষ") {
-                setCollectData(outputOne);
-            } else {
-                console.log("norom");
-            }
+            setCollectData(getRandomJSON());
         }
     };
 
     // Try Again Button
-
     const tryAgainHandler = () => {
         window.location.reload(true);
     }
-
 
     return (
         <div className="app-container">
@@ -116,9 +126,9 @@ const Home = () => {
                                     <div className="card-body">
                                         <h2 className="card-title">{item.title} !</h2>
                                         <p>{item.des}</p>
-                                        <div className="card-actions justify-end">
-                                            <div className="badge badge-outline py-6 px-4 bg-[cornsilk]">{item.others}</div>
-                                        </div>
+                                        {/*  <div className="card-actions justify-end">
+                                            <div className="badge badge-outline py-6 px-4 bg-[cornsilk] text-black">{item.others}</div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
